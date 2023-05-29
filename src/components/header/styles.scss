@@ -1,0 +1,25 @@
+header{
+   padding:10px 15px;
+   background: #f0de40;
+   display: flex;
+   justify-content: space-between;
+   align-items:center;
+}
+
+.logo{
+    height:50px;
+    width:100%;
+    max-width: 50px;
+}
+
+nav{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap:40px;
+}
+
+nav a{
+    text-decoration: none;
+    font-weight: 500;
+    color:#3a80cf;
+}

@@ -1,0 +1,46 @@
+footer{
+    width: 100%;
+    background: #ada702;
+    padding:25px 0px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-template-rows: 35px 300px;
+    text-align: center;
+    color:#fff;
+    position: relative;
+    bottom:0;
+}
+
+footer div div{
+    text-transform: uppercase;
+}
+
+.first_menu{
+  position: relative;
+  margin-bottom: 40px;
+  transition: 0.3s;
+  transition-timing-function:ease;
+}
+
+
+
+
+
+.first_menu:hover::before{
+  content:"";
+  position: absolute;
+  top:25px;
+  left:50px;
+  border-bottom:2px solid #000;
+  width:50%;
+  transition: all 0.3s ease;
+-webkit-transition: all 0.3s ease;
+}
+
+.first_menu:hover{
+  transition: 0.3s;
+  transition-timing-function:ease-in-out;
+  font-size:16px;
+  letter-spacing: 1px;
+}
+

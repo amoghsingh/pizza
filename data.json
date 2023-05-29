@@ -1,0 +1,114 @@
+{
+  "pizzas": [
+    {
+      "vegPizzas": [
+        {
+          "id": "v1",
+          "name": "Margherita Pizza",
+          "image": "https://www.famouspizza.in/wp-content/uploads/2020/11/384-3843443_photo-cheese-pizza-vertical-double-cheese-margherita-pizza.jpg",
+          "price": 70,
+          "desc": "Top each pizza generously with fresh basil, followed by a light back-and-forth drizzle of olive oil, a sprinkling of salt, and red pepper flakes, if you wish. Slice and enjoy. Leftover pizza will keep well in the refrigerator for up to 4 days."
+        },
+        {
+          "id": "v2",
+          "name": "Garden Pizza",
+          "image": "https://www.pizzahut.mu/wp-content/uploads/2019/10/Hawaiian-Lovers.jpg",
+          "price": 90,
+          "desc": "Enjoy garden pizza generously with fresh basil, followed by a light back-and-forth drizzle of olive oil, a sprinkling of salt, and red pepper flakes, if you wish. Slice and enjoy. Leftover pizza will keep well in the refrigerator for up to 4 days."
+        },
+        {
+          "id": "v3",
+          "name": "Cheese Pizza",
+          "image": "https://amorepizzapalmdale.com/wp-content/uploads/2019/03/cheese.jpg",
+          "price": 80,
+          "desc": "Cheesy tasty delicous pizza with fresh basil, followed by a light back-and-forth drizzle of olive oil, a sprinkling of salt, and red pepper flakes, if you wish. Slice and enjoy. Leftover pizza will keep well in the refrigerator for up to 4 days."
+        },
+        {
+          "id": "v4",
+          "name": "Corn Pizza",
+          "image": "https://easyar.in/image/cache/catalog/FOOD/pizza/roms%20pizza/singal%20topping/Corn%20Pizza/sdfu-228x228.png",
+          "price": 60,
+          "desc": "Best corn  with cheese generously with fresh basil, followed by a light back-and-forth drizzle of olive oil, a sprinkling of salt, and red pepper flakes, if you wish. Slice and enjoy. Leftover pizza will keep well in the refrigerator for up to 4 days."
+        },
+        {
+          "id": "v5",
+          "name": "Paneer Pizza",
+          "image": "https://pizzaparadise.in/wp-content/uploads/2019/10/cheesy-paneer.png",
+          "price": 80,
+          "desc": "Loaded with protein, enjoy paneer pizza with fresh basil, followed by a light back-and-forth drizzle of olive oil, a sprinkling of salt, and red pepper flakes, if you wish. Slice and enjoy. Leftover pizza will keep well in the refrigerator for up to 4 days."
+        },
+        {
+          "id": "v6",
+          "name": "Capsicum Pizza",
+          "image": "https://www.dominos.co.in//files/items/CapsicumVeg.jpg",
+          "price": 60,
+          "desc": "spicy chilly  pizza generously with fresh basil, followed by a light back-and-forth drizzle of olive oil, a sprinkling of salt, and red pepper flakes, if you wish. Slice and enjoy. Leftover pizza will keep well in the refrigerator for up to 4 days."
+        }
+      ]
+    },
+    {
+      "nonVegPizzas": [
+        {
+          "id": "nv1",
+          "name": "Chicken Barbeque Pizza",
+          "image": "https://www.caseys.com/medias/sys_master/images/hf5/hcf/8921633488926/8434_base-400x400/8434-base-400x400.png",
+          "price": 70,
+          "desc": "Enjoy tasty chicken generously with fresh basil, followed by a light back-and-forth drizzle of olive oil, a sprinkling of salt, and red pepper flakes, if you wish. Slice and enjoy. Leftover pizza will keep well in the refrigerator for up to 4 days."
+        },
+        {
+          "id": "nv2",
+          "name": "Chicken Supreme Pizza",
+          "image": "https://merranopizza.com/wp-content/uploads/2017/03/pizza-13.png",
+          "price": 90,
+          "desc": "Enjoy Supreme chicken generously with fresh basil, followed by a light back-and-forth drizzle of olive oil, a sprinkling of salt, and red pepper flakes, if you wish. Slice and enjoy. Leftover pizza will keep well in the refrigerator for up to 4 days."
+        },
+        {
+          "id": "nv3",
+          "name": "Chicken Tikka Pizza",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6uhF6yBfjW7uat2BtHk44cY1eFB9oSSVFZIqiDTVHOeBNwykiWhAWz5j5FmGF2stTA4o&usqp=CAU",
+          "price": 80,
+          "desc": "Enjoy tasty chicken tikka generously with fresh basil, followed by a light back-and-forth drizzle of olive oil, a sprinkling of salt, and red pepper flakes, if you wish. Slice and enjoy. Leftover pizza will keep well in the refrigerator for up to 4 days."
+        },
+        {
+          "id": "nv4",
+          "name": "Chicken Garlic Pizza",
+          "image": "https://images.newyorkpizza.nl/Products/Original/Italian-8041.png",
+          "price": 70,
+          "desc": "Chicken Garlic pizza on your table. Tasty chicken generously with fresh basil, followed by a light back-and-forth drizzle of olive oil, a sprinkling of salt, and red pepper flakes, if you wish. Slice and enjoy. Leftover pizza will keep well in the refrigerator for up to 4 days."
+        },
+        {
+          "id": "nv5",
+          "name": "Spicy Chicken Pizza",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2xy4dPzGBHisOYsGJJA1NeN7EOoxYHtbFjrGD7IdmtAZPesIaP3V6DIM2ozPx73CmWPg&usqp=CAU",
+          "price": 80,
+          "desc": "Enjoy the hot spicy chicken generously with fresh basil, followed by a light back-and-forth drizzle of olive oil, a sprinkling of salt, and red pepper flakes, if you wish. Slice and enjoy. Leftover pizza will keep well in the refrigerator for up to 4 days."
+        }
+      ]
+    },
+    {
+      "beverages": [
+        {
+          "id": "b1",
+          "name": "Tea",
+          "image": "https://i.dailymail.co.uk/1s/2022/09/26/12/62804005-11250365-image-a-1_1664190454230.jpg",
+          "price": 10,
+          "desc": "Enjoy the hot tea."
+        },
+        {
+          "id": "b2",
+          "name": "Coffee",
+          "image": "https://vaya.in/recipes/wp-content/uploads/2018/05/Coffee.jpg",
+          "price": 15,
+          "desc": "Enjoy the hot coffee."
+        },
+        {
+          "id": "b3",
+          "name": "Hot Chocolate",
+          "image": "https://www.blondelish.com/wp-content/uploads/2017/12/Best-Homemade-Hot-Chocolate-Recipe-21-500x375.jpg",
+          "price": 20,
+          "desc": "Enjoy the hot chocolate."
+        }
+      ]
+    }
+  ]
+}

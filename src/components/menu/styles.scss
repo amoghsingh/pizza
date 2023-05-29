@@ -1,0 +1,13 @@
+.pizza-menu{
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-around;
+}
+
+.pizza-type{
+    background: none;
+    font-size: 18px;
+    color:red;
+    font-weight:bolder;
+}
