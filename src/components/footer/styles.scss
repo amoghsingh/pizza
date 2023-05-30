@@ -1,14 +1,12 @@
 footer{
-    width: 100%;
     background: #ada702;
     padding:25px 0px;
     display: grid;
-    grid-template-columns: auto auto auto auto auto auto;
+    grid-template-columns: repeat(6,1fr);
     grid-template-rows: 35px 300px;
     text-align: center;
     color:#fff;
-    position: relative;
-    bottom:0;
+   margin-top: auto;
 }
 
 footer div div{
@@ -23,16 +21,21 @@ footer div div{
 }
 
 
-
+footer a{
+display: block;
+padding:8px 0px;
+text-decoration: none;
+color:#4f6204;
+}
 
 
 .first_menu:hover::before{
   content:"";
   position: absolute;
   top:25px;
-  left:50px;
-  border-bottom:2px solid #000;
-  width:50%;
+  left:25px;
+  border-bottom:2px solid #464646;
+  width:75%;
   transition: all 0.3s ease;
 -webkit-transition: all 0.3s ease;
 }
@@ -44,3 +47,43 @@ footer div div{
   letter-spacing: 1px;
 }
 
+
+
+
+
+@media (min-width:200px) and (max-width:499px){
+  footer{
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: none;
+    grid-row-gap:40px;
+  }
+
+  footer a{
+    font-size: 12px;
+  }
+  
+}
+
+
+
+@media (min-width:500px) and (max-width:699px){
+  footer{
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: none;
+    grid-row-gap:40px;
+  }
+
+  footer a{
+    font-size: 14px;
+  }
+  
+}
+
+@media (min-width:700px) and (max-width:1140px){
+  footer{
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: none;
+    grid-row-gap:40px;
+  }
+  
+}
