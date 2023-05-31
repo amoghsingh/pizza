@@ -27,11 +27,16 @@ const Menu = () => {
         {veg && veg.length > 0
           ? veg.map((item, index) => {
               return (
-                <div key={index}>
+                <div key={index} className="pizza-card">
                   <p>
-                    <img src={item.image} height="200px" width="250px" />
+                    <img
+                      src={item.image}
+                      height="200px"
+                      width="250px"
+                      alt="pizza_image"
+                    />
                   </p>
-                  {item.name}
+                  <div>{item.name}</div>
                 </div>
               );
             })
@@ -43,11 +48,16 @@ const Menu = () => {
         {nonveg && nonveg.length > 0
           ? nonveg.map((item, index) => {
               return (
-                <div key={index}>
+                <div key={index} className="pizza-card">
                   <p>
-                    <img src={item.image} height="200px" width="250px" />
+                    <img
+                      src={item.image}
+                      height="200px"
+                      width="250px"
+                      alt="pizza_image"
+                    />
                   </p>
-                  {item.name}
+                  <div>{item.name}</div>
                 </div>
               );
             })
@@ -59,11 +69,16 @@ const Menu = () => {
         {bev && bev.length > 0
           ? bev.map((item, index) => {
               return (
-                <div key={index}>
+                <div key={index} className="pizza-card">
                   <p>
-                    <img src={item.image} height="200px" width="250px" />
+                    <img
+                      src={item.image}
+                      height="200px"
+                      width="250px"
+                      alt="pizza_image"
+                    />
                   </p>
-                  {item.name}
+                  <div>{item.name}</div>
                 </div>
               );
             })

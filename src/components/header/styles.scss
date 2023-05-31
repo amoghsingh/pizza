@@ -35,15 +35,13 @@ nav a{
   z-index: 1;
   top:60px;
   width:80%;
-  //left:-5%;
-  //transform: translateX(12%);
+  left:10%;
   box-shadow: 0px 7px 20px 2px #6e6e6e;
-  //transition: left .3s ease-in-out;
   animation: slide-in 0.5s ease-in-out;
 }
 
 @keyframes slide-in {
-  0% { left: -5% }
+  0% { left: -100% }
   100% { left: 10% }
 }
 
