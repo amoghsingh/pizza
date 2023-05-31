@@ -27,6 +27,7 @@ nav a{
 
 
 .menu-popup{
+  display: none;
   position: fixed;
   background: #fff;
   padding:10px;
@@ -76,7 +77,9 @@ nav a{
   .ham-menu{
     display: block;
   }
-  
+  .menu-popup{
+    display: block;
+  }
 
   
 }

@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useEffect } from "react";
 import menuapi from "../../services/menuapi";
 import "./styles.scss";
+import { BsCurrencyRupee } from "react-icons/bs";
 
 const Menu = () => {
   const [veg, setVeg] = useState([]);
@@ -20,6 +21,23 @@ const Menu = () => {
     setBev(response.data[2].beverages);
   };
 
+  const showRatings = (ratings) => {
+    let htmlStructure = "";
+    let j;
+
+    for (j = 0; j < ratings; j++) {
+      htmlStructure += "<span class='fa fa-star checked'></span>";
+    }
+
+    if (j !== 5) {
+      for (let i = 0; i < 5 - ratings; i++) {
+        htmlStructure += "<span class='fa fa-star'></span>";
+      }
+    }
+
+    return htmlStructure;
+  };
+
   return (
     <>
       <p className="pizza-type">Veg Pizzas</p>
@@ -29,14 +47,23 @@ const Menu = () => {
               return (
                 <div key={index} className="pizza-card">
                   <p>
-                    <img
-                      src={item.image}
-                      height="200px"
-                      width="250px"
-                      alt="pizza_image"
-                    />
+                    <img src={item.image} alt="pizza_image" />
+                    <span className="offer">20% off!</span>
                   </p>
-                  <div>{item.name}</div>
+                  <div className="pizza-details">
+                    <div className="name-price">
+                      <span>{item.name}</span>
+                      <span className="price">
+                        <BsCurrencyRupee /> {item.price}
+                      </span>
+                    </div>
+                    <div
+                      className="rating-size"
+                      dangerouslySetInnerHTML={{
+                        __html: showRatings(item.ratings),
+                      }}
+                    />
+                  </div>
                 </div>
               );
             })
@@ -50,14 +77,23 @@ const Menu = () => {
               return (
                 <div key={index} className="pizza-card">
                   <p>
-                    <img
-                      src={item.image}
-                      height="200px"
-                      width="250px"
-                      alt="pizza_image"
-                    />
+                    <img src={item.image} alt="pizza_image" />
+                    <span className="offer">20% off!</span>
                   </p>
-                  <div>{item.name}</div>
+                  <div className="pizza-details">
+                    <div className="name-price">
+                      <span>{item.name}</span>
+                      <span className="price">
+                        <BsCurrencyRupee /> {item.price}
+                      </span>
+                    </div>
+                    <div
+                      className="rating-size"
+                      dangerouslySetInnerHTML={{
+                        __html: showRatings(item.ratings),
+                      }}
+                    />
+                  </div>
                 </div>
               );
             })
@@ -71,14 +107,23 @@ const Menu = () => {
               return (
                 <div key={index} className="pizza-card">
                   <p>
-                    <img
-                      src={item.image}
-                      height="200px"
-                      width="250px"
-                      alt="pizza_image"
-                    />
+                    <img src={item.image} alt="pizza_image" />
+                    <span className="offer">5% off!</span>
                   </p>
-                  <div>{item.name}</div>
+                  <div className="pizza-details">
+                    <div className="name-price">
+                      <span>{item.name}</span>
+                      <span className="price">
+                        <BsCurrencyRupee /> {item.price}
+                      </span>
+                    </div>
+                    <div
+                      className="rating-size"
+                      dangerouslySetInnerHTML={{
+                        __html: showRatings(item.ratings),
+                      }}
+                    />
+                  </div>
                 </div>
               );
             })
